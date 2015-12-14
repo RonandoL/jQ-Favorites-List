@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="JQuery Code Review: Favorite things list">
+    <title>JQuery Code Review: Favorite things list</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="assets/js/scripts.js"></script>
+  </head>
+
+  <body>
+  <!-- NAVBAR -->
+    <header>
+      <nav class="navbar navbar-inverse navbar-fixed-top" >
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">jQuery Code Review: Favorite things list</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9 stuff">
+          <h3><i>Enter in a favorite thing, then hit the button</i></h3>
+
+    <!-- form -->
+          <form id="the-form">
+            <input id="list-input" type="text" placeholder="sexy time" size="40">
+            <button class="btn btn-warning" type="submit">Submit</button>
+            <hr>
+          </form>
+
+        </div> <!-- /col-sm-12 -->
+      </div> <!-- /row -->
+
+    <!-- results -->
+      <div class="row">
+        <div id="show" class="col-sm-7">
+          <h3 class="fav-things">My most favoritest things</h3>
+
+          <ul id="list-items">
+          </ul>
+
+        </div>
+      </div> <!-- /row -->
+    </div> <!-- /container -->
+
+
+
+  </body>
+</html>
